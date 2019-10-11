@@ -1,10 +1,14 @@
 import * as React from 'react';
+// css framework
 import { Typography } from '@material-ui/core';
+// type of datas
 import { PlayersType } from '../../utils/players';
+// component
 import PlayerStats from '../PlayerStats';
 
 import { useStyles } from './styles';
 
+// type props
 type PlayerItemProps = {
   item: PlayersType;
 };

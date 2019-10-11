@@ -1,10 +1,15 @@
 import * as React from 'react';
 import axios from 'axios';
 
+// css framework
 import { Typography } from '@material-ui/core';
+// type
 import { PlayersType } from '../../utils/players';
 
+// component
 import PlayerItem from '../PlayerItem';
+
+// styles
 import { useStyles } from './styles';
 
 export const endpoint: string =
@@ -13,18 +18,21 @@ export const endpoint: string =
 const PlayerList: React.FC<{}> = () => {
   const classes = useStyles('');
 
-  const [players, setPlayers] = React.useState([]);
-  const [loading, setLoading] = React.useState(false);
+  const [players, setPlayers] = React.useState([]); // initialise state of players
+  const [loading, setLoading] = React.useState(false); // initialise state of loading
 
-  // effect to call function
+  // hooks
   React.useEffect(() => {
     axios
       .get(endpoint)
       .then((response) => {
+        // setstate
         setPlayers(response.data.players);
         setLoading(true);
       })
-      .catch(() => {});
+      .catch((e) => {
+        throw e;
+      });
   }, []);
 
   return (

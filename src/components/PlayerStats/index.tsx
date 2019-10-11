@@ -1,9 +1,13 @@
 import * as React from 'react';
 import { Typography } from '@material-ui/core';
+
+// external function
 import { DataType, getHeight, getWeight, getScore } from '../../utils/players';
 
+// set styles
 import { useStyles } from './styles';
 
+// props type
 type PlayerStatsProps = {
   data: DataType;
 };
