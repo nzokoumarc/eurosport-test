@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerItem renders 1`] = `
+<Fragment>
+  <div
+    className="makeStyles-root-1"
+  >
+    <div
+      className="makeStyles-flex-2"
+    >
+      <img
+        alt="S.WAW"
+        src="https://i.eurosport.com/_iss_/person/pp_clubteam/large/325225.jpg"
+        width="150"
+      />
+      <div
+        className="makeStyles-content-5"
+      >
+        <div>
+          <WithStyles(ForwardRef(Typography))
+            color="primary"
+            variant="h5"
+          >
+            Stan
+             
+            Wawrinka
+          </WithStyles(ForwardRef(Typography))>
+          <WithStyles(ForwardRef(Typography))
+            color="initial"
+            variant="body2"
+          >
+            <span
+              className="makeStyles-color-4"
+            >
+              Sex : 
+            </span>
+            M
+          </WithStyles(ForwardRef(Typography))>
+          <WithStyles(ForwardRef(Typography))
+            color="initial"
+            variant="body2"
+          >
+            <span
+              className="makeStyles-color-4"
+            >
+              Country : 
+            </span>
+            <img
+              alt="SUI"
+              src="https://i.eurosport.com/_iss_/geo/country/flag/large/2213.png"
+              width="20"
+            />
+              
+            SUI
+          </WithStyles(ForwardRef(Typography))>
+          <Memo()
+            data={
+              Object {
+                "age": 33,
+                "height": 183,
+                "last": Array [
+                  1,
+                  1,
+                  1,
+                  0,
+                  1,
+                ],
+                "points": 1784,
+                "rank": 21,
+                "weight": 81000,
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

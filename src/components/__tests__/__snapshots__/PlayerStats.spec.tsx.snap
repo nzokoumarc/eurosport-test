@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerStats renders 1`] = `
+<Fragment>
+  <div
+    className="makeStyles-flex-1"
+  >
+    <div>
+      <WithStyles(ForwardRef(Typography))
+        color="initial"
+        variant="body2"
+      >
+        Height (M)
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        color="primary"
+        variant="h6"
+      >
+        1.83
+      </WithStyles(ForwardRef(Typography))>
+    </div>
+    <div>
+      <WithStyles(ForwardRef(Typography))
+        color="initial"
+        variant="body2"
+      >
+        Weight (kg)
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        color="primary"
+        variant="h6"
+      >
+        81
+      </WithStyles(ForwardRef(Typography))>
+    </div>
+    <div>
+      <WithStyles(ForwardRef(Typography))
+        color="initial"
+        variant="body2"
+      >
+        Age
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        color="primary"
+        variant="h6"
+      >
+        33
+      </WithStyles(ForwardRef(Typography))>
+    </div>
+    <div>
+      <WithStyles(ForwardRef(Typography))
+        color="initial"
+        variant="body2"
+      >
+        Rank
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        color="primary"
+        variant="h6"
+      >
+        21
+      </WithStyles(ForwardRef(Typography))>
+    </div>
+    <div>
+      <WithStyles(ForwardRef(Typography))
+        color="initial"
+        variant="body2"
+      >
+        Win
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        color="primary"
+        variant="h6"
+      >
+        4
+      </WithStyles(ForwardRef(Typography))>
+    </div>
+    <div>
+      <WithStyles(ForwardRef(Typography))
+        color="initial"
+        variant="body2"
+      >
+        Lost
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        color="primary"
+        variant="h6"
+      >
+        1
+      </WithStyles(ForwardRef(Typography))>
+    </div>
+  </div>
+</Fragment>
+`;
